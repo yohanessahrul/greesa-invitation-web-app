@@ -1,0 +1,38 @@
+p.label-top {
+  text-align: center;
+  font-family: 'Gluten', cursive;
+  font-size: 23px;
+  color: #50350c;
+}
+.avatar-top {
+  width: 100%;
+  /* background: grey; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+h1.callname {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+  font-size: 70px;
+  color: #ca155b;
+}
+p.birthday-text {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 32px;
+  margin-top: -10px;
+  color: #50350c;
+}
+.wrapper-image-mid {
+  width: 320px;
+  height: 230px;
+}
+h2.name-mid {
+  text-align: center;
+  font-family: 'Gluten', cursive;
+  font-size: 35px;
+  color: #50350c;
+  margin-top: 23px;
+  margin-bottom: 10px;
+}
