@@ -41,7 +41,7 @@ export default function First() {
               </div>
             </div>
             <div className='section-bottom decrement-top-margin-50'>
-              <Link className='button-invitation' href="/event">Lihat Detail Acara</Link>
+              <Link className='button-invitation' href="/event?name=greesa">Lihat Detail Acara</Link>
             </div>
           </div>
         </div>

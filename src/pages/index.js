@@ -2,8 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import '../styles/home.css'
+import { useSearchParams } from 'next/navigation'
 
 export default function Home() {
+  const searchParams = useSearchParams()
+  const name = searchParams.get('name')
+
   return (
     <>
       <Head>
@@ -35,10 +39,10 @@ export default function Home() {
               <div className='wrapper-image-mid'>
                 <Image width={320} height={230} src='/images/home-bing-all-star.png' />
               </div>
-              <h2 className='name-mid'>hi, Fino</h2>
+              <h2 className='name-mid'>hi, {name}</h2>
             </div>
             <div className='section-bottom'>
-              <Link className='button-invitation' href="/first">Lihat Undanganmu :)</Link>
+              <Link className='button-invitation' href="/first?name=greesa">Lihat Undanganmu :)</Link>
             </div>
           </div>
         </div>

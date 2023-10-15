@@ -1,9 +1,12 @@
 import Head from 'next/head';
 import Image from "next/image";
-// import Countdown from "react-countdown-simple";
 import '../styles/event.css';
+import { useSearchParams } from 'next/navigation'
 
 export default function Event() {
+  const searchParams = useSearchParams()
+  const name = searchParams.get('name')
+
   const greesaBirthDate = new Date("October 29, 2023 15:00:00").toISOString();
 
   return (
@@ -65,7 +68,7 @@ export default function Event() {
               </div>
             </div>
             <div className='section-bottom'>
-              <a className='button-invitation' href="https://wa.me/6281703631403?text=Hai%20Greesa,%0ASaya%20siap%20hadir%20pada%20acara%20ulang%20tahunmu,%20terimakasih%20:)">Confirmation</a>
+              <a className='button-invitation' href={`https://wa.me/6281703631403?text=Hai%20Greesa,%0ASaya%20siap%20hadir%20pada%20acara%20ulang%20tahunmu,%20terimakasih.%0A%0A${name} :)`}>Confirmation</a>
             </div>
           </div>
         </div>
