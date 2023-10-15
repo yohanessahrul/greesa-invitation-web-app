@@ -11,6 +11,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <audio autoPlay src="/images/funny-happy-birthday.mp3" type="audio/mp3"></audio>
       </body>
     </Html>
   )

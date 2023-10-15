@@ -2,8 +2,11 @@ import Head from 'next/head';
 import Image from "next/image";
 import Link from 'next/link';
 import '../styles/first.css';
+import { useSearchParams } from 'next/navigation'
 
 export default function First() {
+  const searchParams = useSearchParams()
+  const name = searchParams.get('name')
   return (
     <>
       <Head>
@@ -41,7 +44,7 @@ export default function First() {
               </div>
             </div>
             <div className='section-bottom decrement-top-margin-50'>
-              <Link className='button-invitation' href="/event?name=greesa">Lihat Detail Acara</Link>
+              <Link className='button-invitation' href={`/event?name=${name}`}>Lihat Detail Acara</Link>
             </div>
           </div>
         </div>

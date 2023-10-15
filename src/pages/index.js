@@ -42,7 +42,7 @@ export default function Home() {
               <h2 className='name-mid'>hi, {name}</h2>
             </div>
             <div className='section-bottom'>
-              <Link className='button-invitation' href="/first?name=greesa">Lihat Undanganmu :)</Link>
+              <Link className='button-invitation' href={`/first?name=${name}`}>Lihat Undanganmu :)</Link>
             </div>
           </div>
         </div>
