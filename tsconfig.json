@@ -28,7 +28,8 @@
     "**/*.ts",
     "**/*.tsx",
     "src/pages/first.js",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "build/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

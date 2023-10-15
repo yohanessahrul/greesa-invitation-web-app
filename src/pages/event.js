@@ -1,9 +1,11 @@
 import Head from 'next/head';
 import Image from "next/image";
-// import Link from 'next/link';
-// import '../styles/event.css';
+// import Countdown from "react-countdown-simple";
+import '../styles/event.css';
 
 export default function Event() {
+  const greesaBirthDate = new Date("October 29, 2023 15:00:00").toISOString();
+
   return (
     <>
       <Head>
@@ -16,22 +18,54 @@ export default function Event() {
         <div className="wrapper">
           <div className='top-decoration'>
             <div className='left-decoration' style={{ width: '100px', height: '140px' }}>
-              <Image width={220} height={150} src='/images/top-balon-left.png' />
+              <Image width={220} height={150} src='/images/top-balon-left.png' alt='heheh' />
             </div>
             <div className='right-decoration' style={{ width: '100px', height: '140px' }}>
-              <Image width={220} height={150} src='/images/top-balon-left.png' />
+              <Image width={220} height={150} src='/images/top-balon-left.png'  alt='haha' />
             </div>
           </div>
           <div className='section'>
             <div className='section-top'>
-              xxxx
+              <div className='top-leaf-right'>
+                <Image width={100} height={150} src='/images/top-leaf-right.png'  alt='hihi' />
+              </div>
+              <div className='bottom-leaf-left'>
+                <Image width={150} height={150} src='/images/down-leaf-left.png'  alt='hoho' />
+              </div>
+              &nbsp;
+              <h1 className='birthday-party-heading'>Birthday</h1>
+              <h1 className='birthday-party-heading'>Party</h1>
+              &nbsp;
+              <p className='birthday-date'>Sunday</p>
+              <p className='birthday-date'>October 29, 2023</p>
             </div>
             <div className='section-mid'>
-              xxxx
+              <div className='countdown'>
+                <div className='countdown-item'>
+                  <h1>14</h1>
+                  <p>hari</p>
+                </div>
+                <div className='countdown-item'>
+                  <h1>15</h1>
+                  <p>jam</p>
+                </div>
+                <div className='countdown-item'>
+                  <h1>23</h1>
+                  <p>menit</p>
+                </div>
+              </div>
+              <div className='location'>
+                <p>Cluster Lisse Blok AM3 No.4</p>
+                <p>Perumahan Metland Cibitung</p>
+                <p>Kel. Telaga Murni</p>
+                <p>Kec. Cikarang Barat</p>
+              </div>
+              <div className='stack-images-of-gica'>
+                <Image width={175} height={200} src='/images/stack-images-gica.png'  alt='cukcuk' />
+              </div>
             </div>
             <div className='section-bottom'>
-              xxx
-              {/* <Link className='button-invitation' href="/event">Lihat Detail Acara</Link> */}
+              <a className='button-invitation' href="https://wa.me/6281703631403?text=Hai%20Greesa,%0ASaya%20siap%20hadir%20pada%20acara%20ulang%20tahunmu,%20terimakasih%20:)">Confirmation</a>
             </div>
           </div>
         </div>
