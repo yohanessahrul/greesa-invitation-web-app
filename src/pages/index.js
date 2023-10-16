@@ -18,8 +18,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:image" content="/images/image-share.jpeg"/>
         <meta property="og:image:type" content="image/jpeg" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
+        <meta property="og:image:width" content="1000" />
+        <meta property="og:image:height" content="525" />
       </Head>
       <main>
         <div className="wrapper">
