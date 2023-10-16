@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import '../styles/first.css';
 import { useSearchParams } from 'next/navigation'
+import 'animate.css'
 
 export default function First() {
   const searchParams = useSearchParams()
@@ -17,7 +18,7 @@ export default function First() {
       </Head>
       <main>
         <div className="wrapper">
-          <div className='top-decoration'>
+          <div className='top-decoration animate__animated animate__pulse animate__infinite'>
             <div className='left-decoration' style={{ width: '100px', height: '140px' }}>
               <Image width={220} height={150} src='/images/top-balon-left.png' />
             </div>
@@ -27,24 +28,24 @@ export default function First() {
           </div>
           <div className='section'>
             <div className='section-top'>
-              <div className='leaf-left'>
+              <div className='leaf-left animate__animated animate__bounceInLeft'>
                 <Image width={170} height={150} src='/images/leaf-left-first-page.png' />
               </div>
-              <h1 className='callname'>Greesa</h1>
-              <h2 className='fullname'>Anna Greesa Liora</h2>
-              <h2 className='is-turning'>is turning 2</h2>
-              <h2 className='birth-date'>October 23, 2023</h2>
+              <h1 className='callname animate__animated animate__bounce animate__infinite'>Greesa</h1>
+              <h2 className='fullname animate__animated animate__slideInUp'>Anna Greesa Liora</h2>
+              <h2 className='is-turning animate__animated animate__rubberBand'>is turning 2</h2>
+              <h2 className='birth-date animate__animated animate__rubberBand'>October 23, 2023</h2>
             </div>
             <div className='section-mid'>
               <div className='leaf-right'>
-                <Image width={170} height={150} src='/images/leaf-right-first-page.png' />
+                <Image className='animate__animated animate__bounceInRight' width={170} height={150} src='/images/leaf-right-first-page.png' />
               </div>
               <div className='wrapper-image'>
-                <Image width={450} height={450} src='/images/gica-tiduran.png' />
+                <Image className='animate__animated animate__swing' width={450} height={450} src='/images/gica-tiduran.png' />
               </div>
             </div>
             <div className='section-bottom decrement-top-margin-50'>
-              <Link className='button-invitation' href={`/event?name=${name}`}>Lihat Detail Acara</Link>
+              <Link className='button-invitation animate__animated animate__heartBeat animate__infinite' href={`/event?name=${name}`}>Lihat Detail Acara</Link>
             </div>
           </div>
         </div>

@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <main>
         <div className="wrapper">
-          <div className='top-decoration'>
+          <div className='top-decoration animate__animated animate__pulse animate__infinite'>
             <div className='left-decoration' style={{ width: '100px', height: '140px' }}>
               <Image width={220} height={150} src='/images/top-balon-left.png' />
             </div>
@@ -30,10 +30,10 @@ export default function Home() {
             <div className='section-top'>
               <p className='label-top'>You're invited !</p>
               <div className='avatar-top'>
-                <Image width={230} height={230} src='/images/avatar-gica-home.png' />
+                <Image className='animate__animated animate__fadeInDown' width={230} height={230} src='/images/avatar-gica-home.png' />
               </div>
-              <h1 className='callname'>Greesa</h1>
-              <p className='birthday-text'>Birthday Party 2</p>
+              <h1 className='callname animate__animated animate__bounce animate__infinite'>Greesa</h1>
+              <p className='birthday-text animate__animated animate__slideInDown'>Birthday Party 2</p>
             </div>
             <div className='section-mid'>
               <div className='wrapper-image-mid'>
@@ -42,7 +42,7 @@ export default function Home() {
               <h2 className='name-mid'>hi, {name}</h2>
             </div>
             <div className='section-bottom'>
-              <Link className='button-invitation' href={`/first?name=${name}`}>Lihat Undanganmu :)</Link>
+              <Link className='button-invitation animate__animated animate__heartBeat animate__infinite' href={`/first?name=${name}`}>Lihat Undanganmu :)</Link>
             </div>
           </div>
         </div>

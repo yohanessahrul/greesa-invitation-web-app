@@ -19,7 +19,7 @@ export default function Event() {
       </Head>
       <main>
         <div className="wrapper">
-          <div className='top-decoration'>
+          <div className='top-decoration animate__animated animate__pulse animate__infinite'>
             <div className='left-decoration' style={{ width: '100px', height: '140px' }}>
               <Image width={220} height={150} src='/images/top-balon-left.png' alt='heheh' />
             </div>
@@ -29,21 +29,21 @@ export default function Event() {
           </div>
           <div className='section'>
             <div className='section-top'>
-              <div className='top-leaf-right'>
+              <div className='top-leaf-right animate__animated animate__bounceInRight'>
                 <Image width={100} height={150} src='/images/top-leaf-right.png'  alt='hihi' />
               </div>
-              <div className='bottom-leaf-left'>
+              <div className='bottom-leaf-left animate__animated animate__bounceInLeft'>
                 <Image width={150} height={150} src='/images/down-leaf-left.png'  alt='hoho' />
               </div>
               &nbsp;
-              <h1 className='birthday-party-heading'>Birthday</h1>
-              <h1 className='birthday-party-heading'>Party</h1>
+              <h1 className='birthday-party-heading animate__animated animate__bounce animate__infinite'>Birthday</h1>
+              <h1 className='birthday-party-heading animate__animated animate__bounce animate__infinite'>Party</h1>
               &nbsp;
-              <p className='birthday-date'>Sunday</p>
-              <p className='birthday-date'>October 29, 2023</p>
+              <p className='birthday-date animate__animated animate__wobble'>Sunday</p>
+              <p className='birthday-date animate__animated animate__wobble'>October 29, 2023</p>
             </div>
             <div className='section-mid'>
-              <div className='countdown'>
+              <div className='countdown animate__animated animate__flipInX'>
                 <div className='countdown-item'>
                   <h1>14</h1>
                   <p>hari</p>
@@ -57,19 +57,18 @@ export default function Event() {
                   <p>menit</p>
                 </div>
               </div>
-              <div className='location'>
+              <div className='location animate__animated animate__backInUp'>
                 <p>Cluster Lisse Blok AM3 No.4</p>
                 <p>Perumahan Metland Cibitung</p>
                 <p>Kel. Telaga Murni</p>
                 <p>Kec. Cikarang Barat</p>
               </div>
               <div className='stack-images-of-gica'>
-                <Image width={175} height={200} src='/images/stack-images-gica.png'  alt='cukcuk' />
+                <Image className='animate__animated animate__flipInY' width={175} height={200} src='/images/stack-images-gica.png'  alt='cukcuk' />
               </div>
             </div>
-            <div className='section-bottom sectio-event'>
-              <a target='_blank' className='button-invitation' href={`https://wa.me/6281703631403?text=Hai%20Greesa,%0ASaya%20siap%20hadir%20pada%20acara%20ulang%20tahunmu,%20terimakasih.%0A%0A${name} :)`}>Konfirmasi WA</a>
-              <a target='_blank' className='button-invitation' href='https://calendar.google.com/calendar/u/0/r/eventedit?text=Greesa%20Birthday%20Party&dates=%2F&details=&location=Cluster%20Lisse%20Blok%20AM3%20No.4%20Perumahan%20Metland%20Cibitung&tmsrc=yohanessahrul92%40gmail.com'>Tandai Kalender</a>
+            <div className='section-bottom'>
+              <a target='_blank' className='button-invitation animate__animated animate__heartBeat animate__infinite' href={`https://wa.me/6281703631403?text=Hai%20Greesa,%0ASaya%20siap%20hadir%20pada%20acara%20ulang%20tahunmu,%20terimakasih.%0A%0A${name} :)`}>Konfirmasi WA</a>
             </div>
           </div>
         </div>
