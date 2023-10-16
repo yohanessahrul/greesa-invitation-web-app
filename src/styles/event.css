@@ -65,3 +65,8 @@ p.birthday-date {
 .stack-images-of-gica {
   margin-top: 20px;
 }
+.sectio-event {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

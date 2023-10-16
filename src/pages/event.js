@@ -67,8 +67,9 @@ export default function Event() {
                 <Image width={175} height={200} src='/images/stack-images-gica.png'  alt='cukcuk' />
               </div>
             </div>
-            <div className='section-bottom'>
-              <a className='button-invitation' href={`https://wa.me/6281703631403?text=Hai%20Greesa,%0ASaya%20siap%20hadir%20pada%20acara%20ulang%20tahunmu,%20terimakasih.%0A%0A${name} :)`}>Confirmation</a>
+            <div className='section-bottom sectio-event'>
+              <a target='_blank' className='button-invitation' href={`https://wa.me/6281703631403?text=Hai%20Greesa,%0ASaya%20siap%20hadir%20pada%20acara%20ulang%20tahunmu,%20terimakasih.%0A%0A${name} :)`}>Konfirmasi WA</a>
+              <a target='_blank' className='button-invitation' href='https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MGhldWFxaGM3dnBjcGUwcnE1aTd2bWwwMzIgeW9oYW5lc3NhaHJ1bDkyQG0&tmsrc=yohanessahrul92%40gmail.com'>Tandai Kalender</a>
             </div>
           </div>
         </div>
