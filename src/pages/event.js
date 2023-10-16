@@ -69,7 +69,7 @@ export default function Event() {
             </div>
             <div className='section-bottom sectio-event'>
               <a target='_blank' className='button-invitation' href={`https://wa.me/6281703631403?text=Hai%20Greesa,%0ASaya%20siap%20hadir%20pada%20acara%20ulang%20tahunmu,%20terimakasih.%0A%0A${name} :)`}>Konfirmasi WA</a>
-              <a target='_blank' className='button-invitation' href='https://calendar.google.com/calendar/event?tmeid=MGhldWFxaGM3dnBjcGUwcnE1aTd2bWwwMzIgeW9oYW5lc3NhaHJ1bDkyQG0&tmsrc=yohanessahrul92%40gmail.com'>Tandai Kalender</a>
+              <a target='_blank' className='button-invitation' href='https://calendar.google.com/calendar/u/0/r/eventedit?text=Greesa%20Birthday%20Party&dates=%2F&details=&location=Cluster%20Lisse%20Blok%20AM3%20No.4%20Perumahan%20Metland%20Cibitung&tmsrc=yohanessahrul92%40gmail.com'>Tandai Kalender</a>
             </div>
           </div>
         </div>
