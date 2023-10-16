@@ -15,7 +15,7 @@ export default function First() {
         <meta name="description" content="Undangan ulang tahun bagi temam, sodara, dan orang-orang di sekeliling Greesa." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:image" content="/images/image-share.jpeg"/>
+        <meta property="og:image" itemprop="image" content="/images/image-share.jpeg"/>
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="1000" />
         <meta property="og:image:height" content="525" />
