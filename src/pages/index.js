@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import '../styles/home.css'
 import { useSearchParams } from 'next/navigation'
+import 'animate.css'
 
 export default function Home() {
   const searchParams = useSearchParams()

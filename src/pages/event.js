@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from "next/image";
 import '../styles/event.css';
 import { useSearchParams } from 'next/navigation'
+import 'animate.css'
 
 export default function Event() {
   const searchParams = useSearchParams()
