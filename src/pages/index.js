@@ -17,6 +17,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:image" content="/images/sampul-whatsapp.png"/>
+        <meta property="og:image:type" content="/images/sampul-whatsapp.png" />
+        <meta property="og:image:width" content="/images/sampul-whatsapp.png" />
+        <meta property="og:image:height" content="/images/sampul-whatsapp.png" />
       </Head>
       <main>
         <div className="wrapper">
