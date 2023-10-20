@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 export default function Document() {
   return (
@@ -15,7 +16,9 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <audio autoPlay src="/images/funny-happy-birthday.mp3" type="audio/mp3"></audio>
+        <audio autoPlay>
+          <source src="/audios/funny-happy-birthday.mp3" type="audio/mpeg"/>
+        </audio>
       </body>
     </Html>
   )
