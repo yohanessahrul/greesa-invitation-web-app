@@ -66,7 +66,7 @@ export default function Event() {
               </div>
             </div>
             <div className='section-bottom'>
-              <a target='_blank' className='button-invitation animate__animated animate__heartBeat animate__infinite' href={`https://wa.me/6281703631403?text=Hai%20Greesa,%0ASaya%20siap%20hadir%20pada%20acara%20ulang%20tahunmu,%20terimakasih.%0A%0A${name} :)`}>Konfirmasi WA</a>
+              <a target='_blank' className='button-invitation animate__animated animate__heartBeat animate__infinite' href={`https://wa.me/6281770812970?text=Hai%20Greesa,%0ASaya%20siap%20hadir%20pada%20acara%20ulang%20tahunmu,%20terimakasih.%0A%0A${name} :)`}>Konfirmasi WA</a>
             </div>
           </div>
         </div>
