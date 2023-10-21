@@ -19,8 +19,8 @@ export default function Document() {
         <audio autoPlay loop>
           <source src="/audios/funny-happy-birthday.mp3" type="audio/mp3"/>
         </audio>
-        <iframe src="/audios/funny-happy-birthday.mp3" allow="autoplay" style={{display:"none"}} id="iframeAudio">
-        </iframe> 
+        {/* <iframe src="/audios/funny-happy-birthday.mp3" allow="autoplay" style={{display:"none"}} id="iframeAudio">
+        </iframe>  */}
       </body>
     </Html>
   )
