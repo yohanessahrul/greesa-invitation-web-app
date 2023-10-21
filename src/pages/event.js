@@ -46,27 +46,20 @@ export default function Event() {
               &nbsp;
               <p className='birthday-date animate__animated animate__wobble'>Sunday</p>
               <p className='birthday-date animate__animated animate__wobble'>October 29, 2023</p>
+              <p className='birthday-date animate__animated animate__wobble'>15:00 WIB</p>
             </div>
             <div className='section-mid'>
-              <div className='countdown animate__animated animate__flipInX'>
-                <div className='countdown-item'>
-                  <h1>14</h1>
-                  <p>hari</p>
-                </div>
-                <div className='countdown-item'>
-                  <h1>15</h1>
-                  <p>jam</p>
-                </div>
-                <div className='countdown-item'>
-                  <h1>23</h1>
-                  <p>menit</p>
-                </div>
+              <div className='dress-code-floating animation-instant animate__animated animate__tada'>
+                <h3>Dress Code</h3>
+                <p>White</p>
               </div>
               <div className='location animate__animated animate__backInUp'>
                 <p>Cluster Lisse Blok AM3 No.4</p>
                 <p>Perumahan Metland Cibitung</p>
-                <p>Kel. Telaga Murni</p>
-                <p>Kec. Cikarang Barat</p>
+                <p>Telaga Murni, Cikarang Barat</p>
+              </div>
+              <div className='maps'>
+                <a target='_blank' className='button-maps' href='https://maps.app.goo.gl/jSVEijxFmFaPCptz5'>Open Map</a>
               </div>
               <div className='stack-images-of-gica'>
                 <Image className='animate__animated animate__flipInY' width={175} height={200} src='/images/stack-images-gica.png'  alt='cukcuk' />

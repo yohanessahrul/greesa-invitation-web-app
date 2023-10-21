@@ -40,21 +40,20 @@ p.birthday-date {
   border-radius: 10px;
   background: #8f5b0e;
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .countdown-item h1 {
   font-size: 45px;
   text-align: center;
   font-family: 'Gluten', cursive;
-  margin-top: 16px;
+  /* margin-top: 16px; */
   line-height: 30px;
 }
-.countdown-item p {
-  text-align: center;
-  font-family: 'Pangolin', cursive;
-}
 .location {
-  margin-top: 40px;
+  margin-top: 16px;
 }
 .location p {
   text-align: center;
@@ -69,4 +68,66 @@ p.birthday-date {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.maps {
+  margin-top: 23px;
+  margin-bottom: 16px;
+}
+.button-maps {
+  background-color: #790841;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-family: 'Pangolin', cursive;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.dress-code-floating {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  color: #50350c;
+  z-index: 10;
+  bottom: 80px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dress-code-floating h3 {
+  font-family: 'Pangolin', cursive;
+  /* text-decoration: underline; */
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  /* margin-top: 10px; */
+}
+.dress-code-floating p {
+  max-width: 30px;
+  font-family: 'Pangolin', cursive;
+  font-size: 23px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.animation-instant {
+  border: 3px dashed #ffffff;
+  border-radius: 50px;
+  animation: cssAnimation_0 332ms infinite ease-out;
+  transform: rotate(340deg) translate(0px, 0px);
+}
+
+@keyframes cssAnimation_0 {
+  from {
+    border: 3px solid #ffffff;
+    border-radius: 100px;
+  }
+
+  to {
+    border: 3px dashed #ffffff;
+    border-radius: 100px;
+  }
 }
