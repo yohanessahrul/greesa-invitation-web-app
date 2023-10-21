@@ -49,7 +49,7 @@ export default function Event() {
               <p className='birthday-date animate__animated animate__wobble'>15:00 WIB</p>
             </div>
             <div className='section-mid'>
-              <div className='dress-code-floating animation-instant animate__animated animate__tada'>
+              <div className='dress-code-floating animation-instant animate__animated animate__tada animate__infinite'>
                 <h3>Dress Code</h3>
                 <p>White</p>
               </div>
@@ -58,7 +58,7 @@ export default function Event() {
                 <p>Perumahan Metland Cibitung</p>
                 <p>Telaga Murni, Cikarang Barat</p>
               </div>
-              <div className='maps'>
+              <div className='maps animate__animated animate__rubberBand'>
                 <a target='_blank' className='button-maps' href='https://maps.app.goo.gl/jSVEijxFmFaPCptz5'>Open Map</a>
               </div>
               <div className='stack-images-of-gica'>
