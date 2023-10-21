@@ -33,7 +33,7 @@ export default function First() {
           <div className='section'>
             <div className='section-top'>
               <div className='leaf-left animate__animated animate__bounceInLeft'>
-                <Image width={170} height={150} src='/images/leaf-left-first-page.png' />
+                <Image width={170} height={150} src='/images/leaf-right-first-page.png' />
               </div>
               <h1 className='callname animate__animated animate__bounce animate__infinite'>Greesa</h1>
               <h2 className='fullname animate__animated animate__slideInUp'>Anna Greesa Liora</h2>
